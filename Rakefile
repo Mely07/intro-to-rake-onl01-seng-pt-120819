@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 namespace :greeting do 
   desc 'outputs hello to the terminal'
   task :hello do
@@ -8,9 +9,19 @@ namespace :greeting do
   task :hola do
     puts "hola de Rake!"
   end
-end
+=======
+# desc 'outputs hello to the terminal'
+# task :greeting do
+#   puts "hello from Rake!"
+# end
 
 namespace :db do
+  desc 'outputs hello to the terminal'
+task :greeting do
+  puts "hello from Rake!"
+>>>>>>> b1ab880d00323f349bcd876e0cb5f3cb0c3ec784
+end
+
   task :environment do
     require_relative './config/environment'
   end 
